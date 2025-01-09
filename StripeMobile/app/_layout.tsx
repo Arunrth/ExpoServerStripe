@@ -2,6 +2,7 @@ import { Stack } from "expo-router";
 import { StripeProvider } from '@stripe/stripe-react-native';
 
 const PUBLISHABLE_KEY = process.env.EXPO_PUBLIC_API_KEY
+console.log(PUBLISHABLE_KEY)
 
 const Layout = () => {
     if(!PUBLISHABLE_KEY) {
